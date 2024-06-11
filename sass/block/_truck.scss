@@ -1,0 +1,46 @@
+.b{
+    display: none;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #FFFFFF;
+  }
+  .truck {
+    margin-top: 100px;
+  }
+  .truck__wrap {
+    background: url(../../assets/Rectangle\ 7.png) no-repeat center;
+  }
+  .truck__bg {
+    background: url(../../assets/Rectangle\ 8.png) no-repeat;
+    width: 100%;
+    padding: 180px 52% 180px 100px;
+    b {
+      font-size: 40px;
+      color: aliceblue;
+    }
+  }
+  @media (max-width: 850px) {
+    .truck {
+      margin-top: 100px;
+    }
+    .truck__wrap {
+      display: none;
+      background: url(../../assets/Rectangle\ 7.png) no-repeat center;
+    }
+    .truck__bg {
+      background: url(../../assets/Rectangle\ 8.png) no-repeat;
+      width: 100%;
+      padding: 180px 52% 180px 100px;
+      b {
+        display:inline-block;
+        font-size: 48px;
+        color: #FFFFFF;
+      }
+    }
+    .b{
+        display: block;
+        color: black;
+    }
+  }
+  
